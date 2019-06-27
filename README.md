@@ -18,7 +18,7 @@ Utilização do Spring Boot para gerar um WebService SOAP.
   
 ## Pacotes
 * wsdlservidor: Ponto de entrada do servidor
-* wsdlservidor.assets: Classes geradas para o funcionamento do servió SOAP
+* wsdlservidor.assets: Classes geradas para o funcionamento do serviço SOAP
 * wsdlservidor.config: Configuração do serviço SOAP
 * wsdlservidor.endpoits: Criação dos endpoints, ou seja, as requisições que serão aceitas pelo serviço
 * wsdlservidor.repositories: Repositório de Pais, com os paises em exemplo no código
