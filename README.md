@@ -1,7 +1,7 @@
-[![Build Status](https://travis-ci.org/diegomrodrigues/wsdl-servidor.svg?branch=master)](https://travis-ci.org/diegomrodrigues/wsdl-servidor)
+[![Build Status](https://travis-ci.org/diegomrodrigues/wsdl-servidor.svg?branch=master)](https://travis-ci.org/diegomrodrigues/wsdl-servidor) [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
 
 # Servidor SOAP
-Utilização do Spring Boot para gerar um WebService SOAP.  
+Utilização do Spring Boot para gerar um servidor com um WebService SOAP.  
   
   
 ## Tecnologias utilizadas
@@ -10,7 +10,11 @@ Utilização do Spring Boot para gerar um WebService SOAP.
 * Spring Web Services
 * WSDL4j  
   
-  
+
+## Instalação
+
+Maiores informações estão no item 'Development guide' no arquivo [Contributor Covenant Code of Conduct](CODE_OF_CONDUCT.md).
+
 ## Armazenamento
 * GitHub  
 * Travis CI: Serviço de integração contínua, usado para criar e testar projetos de software hospedados no GitHub  
@@ -61,7 +65,19 @@ curl --header "content-type: text/xml" -d @request.xml http://localhost:8080/ws
 </SOAP-ENV:Envelope>
 ```
   
-## Autor
-Diego Mendes Rodrigues  
-  
-[drSolutions - Agência digital](https://www.drsolutions.com.br)
+# Contribuindo para este projeto
+
+Este repositório é gerenciado pela drSolutions.
+
+Você pode encontrar a informalção detalhada para contribuir [neste documento](CONTRIBUTING.md).
+
+
+# FAQ
+
+**Quem pode utilizar essa ferramenta?**
+
+Qualquer pessoa pode utilizar, basta possuir o Java instalado na estação de trabalho.
+
+**Quem pode contribuir?**
+
+Qualuer desenvolvedor pode contribuir, sendo muito bem-vindo! Caso queira contribuir, veja nosso Código de Conduta | [Contributor Covenant Code of Conduct](CODE_OF_CONDUCT.md).
